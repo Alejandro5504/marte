@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/css.css">
+</head>
+
+<body id="body">
+
+
+
+    <h1>El Universo de Star Citizen</h1>
+
+    <header>
+        <nav>
+            <button id="b1" onclick="alerta()">Acerca del Sistema Solar</button>
+        </nav>
+        <nav>
+            <button id="b2" onclick="terminar()">Terminar</button>
+        </nav>
+    </header>
+
+    <hr>
+
+
+
+    <div>
+
+       <div id="u"> <aside>
+
+            <select onchange="cambiarImagen()" name="astros" id="astros" size="14">
+
+                <option value="./img/animalr.jpg">animal</option>
+                <option value="./img/asteroide.jpg">asteroide</option>
+                <option value="./img/aurora.jpg">aurora</option>
+                <option value="./img/carrack.jpg">carrack</option>
+                <option value="./img/datos.jpg">datos</option>
+                <option value="./img/descargar.jpg">descargar</option>
+                <option value="./img/exploracion.jpg">exploracion</option>
+                <option value="./img/mineria.jpg">mineria</option>
+                <option value="./img/nave.jpg">nave</option>
+                <option value="./img/pyro.jpg">pyro</option>
+                <option value="./img/sol.jpg">sol</option>
+                <option value="./img/starcitizen.jpg">starcitizen</option>
+                <option value="./img/vehiculo.jpg">vehiculo</option>
+                <option value="./img/yela.jpg">yela</option>
+
+            </select>
+
+        </aside>
+</div>
+        <main>
+
+            <div id="d3">
+
+                <img id="imagenQueCambia" src="./img/animalr.jpg" alt="foto">
+
+            </div>
+
+
+
+        </main>
+
+        <mgt-teams-channel-picker></mgt-teams-channel-picker>
+
+    </div>
+
+
+
+    <script src="./js/js.js"></script>
+</body>
+
+</html>
